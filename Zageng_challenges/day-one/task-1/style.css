@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "sans-serif";
+}
+  
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    background-color:  hsl(222, 67%, 84%);
+    width: 1440px;
+    height: 600px;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+}
+ .your-result{
+   text-align: center;
+   background-image: linear-gradient(
+    to top,
+     
+     hsl(241, 81%, 54%),
+     hsl(252, 100%, 67%)
+   );
+   padding: 40px 30px;
+   border-radius: 30px;
+   font-family: sans-serif;
+   width:300px;
+   position: absolute;
+   left: 240px;
+}
+.your-result h1{
+    color: hsl(241, 100%, 89%);
+    font-size: 24px;
+     text-transform: capitalize;
+}
+.your-result .circle{
+    color:hsl(241, 100%, 89%) ; 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(
+    to bottom,
+     hsla(256, 72%, 46%, 1),
+      hsla(241, 72%, 46%, 0)
+     
+   );
+  
+}
+.your-result .circle .score{
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.your-result h2{
+    color: aliceblue;
+    margin: 20px auto;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.your-result p{
+    color:hsl(241, 100%, 89%) ;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.summary{
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    padding: 40px ;
+    height: 450px;
+    border-radius: 30px;
+    height: 425px;
+    
+
+}
+.summary h1{
+   margin-left:  50px;
+   text-transform: capitalize;
+
+}
+.summary .reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 67%,0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px auto;
+    width: 300px;
+
+}
+.summary .reaction span .r{
+    color:gray;
+}
+.summary .reaction h1{
+     color: hsl(0, 100%, 67%);
+     font-size: 18px;
+     margin-left: -40%;
+}
+.summary .memory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(39, 100%, 56%,0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+     margin: 10px auto;
+     width: 300px;
+}
+.summary .memory span .m{
+    color:gray;
+}
+.summary .memory h1{
+     color: hsl(39, 100%, 56%);
+     font-size: 18px;
+     margin-left: -40%;
+}
+.summary .verbal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(166, 100%, 37% ,0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+     margin: 10px auto;
+     width: 300px;
+}
+.summary .verbal span .ve{
+    color:gray;
+}
+.summary .verbal h1{
+     color: hsl(166, 100%, 37%);
+     font-size: 18px;
+     margin-left: -40%;
+}
+.summary .visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(234, 85%, 45%,0.1) ;
+    border-radius: 10px;
+    padding: 10px 15px;
+     margin: 10px auto;
+     width: 300px;
+}
+.summary .visual span .vi{
+    color:gray;
+}
+.summary .visual h1{
+     color: hsl(234, 85%, 45%) ;
+     font-size: 18px;
+     margin-left: -40%;
+}
+button{
+    margin: 30px 50px;
+    width: 300px;
+    height: 46px;
+    border: none;
+    border-radius: 40px;
+    color: aliceblue;
+    background-color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    text-transform: capitalize;
+}

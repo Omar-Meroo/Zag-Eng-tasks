@@ -1,0 +1,598 @@
+:root {
+    /*color*/
+    --color-primary: #C1DEE8;
+    --color-secondary: #FBD9B9;
+    --color-block: #000000;
+    --color-text-heading: #1F1F1F;
+    --color-gray: #BEBEBE;
+    --color-gray2: #fafafa;
+    --color-white: #FEFEFF;
+    /*typography*/
+    --font-size-xs: 9px;
+    --font-size-sm: 12px;
+    --font-size-base: 16px;
+    --font-size-lg: 21px;
+    --font-size-xl: 28px;
+    --font-size-2xl: 38px;
+    --font-size-3xl: 50px;
+    --font-size-4xl: 67px;
+    --font-size-5xl: 89px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "sans-serif";
+}
+
+/*header*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    border-radius: 70px;
+    background-color: var(--color-gray2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    padding: 5px 10px;
+    border-radius: 40px;
+
+}
+
+header nav .search-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: var(--color-white);
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--color-text-heading);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    text-wrap: nowrap;
+
+}
+
+header .btns {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+header .btns button {
+    background: none;
+    border: none;
+    font-size: var(--font-size-sm);
+}
+
+header .btns button:last-child {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    border-radius: 40px;
+    padding: 15px 24px;
+    transition: all 0.3s ease-in-out;
+}
+
+header .btns button:hover {
+    background-color: var(--color-primary);
+    border: var(--color-primary);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+
+
+
+/*section1*/
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,
+            var(--color-primary),
+            var(--color-secondary));
+    border-radius: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.hero .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.hero .content h3 {
+    font-size: var(--font-size-base);
+
+
+}
+
+.hero .content h1 {
+    font-size: var(--font-size-3xl);
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.hero .content p {
+    font-size: var(--font-size-base);
+    font-weight: 300;
+
+}
+
+.hero .image {
+    width: 50%;
+}
+
+.hero .image img {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.hero .content .input-ptn {
+    position: relative;
+    width: 80%;
+}
+
+.hero .content .input-ptn input {
+    width: 100%;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 20px;
+}
+
+.hero .content .input-ptn button {
+    position: absolute;
+    right: 0px;
+    height: 60px;
+    width: 147px;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--color-block);
+    color: var(--color-white);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hero .content .input-ptn button:hover {
+    background-color: var(--color-gray);
+    color: var(--color-block);
+}
+
+/* section2 */
+.quotes {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.quotes .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+
+.quotes .content div {
+    max-width: 320px;
+    text-align: left;
+}
+
+
+/* section3 */
+
+
+.our-recent-project h6 {
+    text-align: center;
+    padding: 30px 20px 0px 30px;
+    font-size: var(--font-size-base);
+    font-weight: 400;
+
+}
+
+.our-recent-project h2 {
+    text-align: center;
+    padding: 10px 20px 0 30px;
+    font-size: var(--font-size-3xl);
+    font-weight: 600;
+}
+
+
+.our-recent-project .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.our-recent-project .cards .card1 {
+    width: 447px;
+    height: 438px;
+}
+
+.our-recent-project .cards .card1 .v {
+    width: 400px;
+    height: 263px;
+    ;
+}
+
+.our-recent-project .cards .card1 h1 {
+    padding: 10px;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.our-recent-project .cards .card1 p {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.our-recent-project .cards .card1 .s {
+    width: 153px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+
+
+
+.our-recent-project .cards .card2 {
+    width: 447px;
+    height: 438px;
+}
+
+.our-recent-project .cards .card2 .v {
+    width: 400px;
+    height: 263px;
+    ;
+}
+
+.our-recent-project .cards .card2 h1 {
+    padding: 10px;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.our-recent-project .cards .card2 p {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.our-recent-project .cards .card2 .s {
+    width: 153px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+.our-recent-project .cards .card3 {
+    width: 447px;
+    height: 438px;
+}
+
+.our-recent-project .cards .card3 .v {
+    width: 400px;
+    height: 263px;
+    ;
+}
+
+.our-recent-project .cards .card3 h1 {
+    padding: 10px;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.our-recent-project .cards .card3 p {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.our-recent-project .cards .card3 .s {
+    width: 153px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* section 4 */
+.global {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.global h2 {
+    text-align: center;
+    font-size: var(--font-size-3xl);
+    font-weight: 600;
+    font-style: SemiBold;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 785px;
+    margin: 30px 20%;
+
+}
+
+
+.global .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 577px;
+    padding-left: 30px;
+}
+
+.global .content .right {
+    width: 50%;
+}
+
+.global .content .right img {
+    width: 100%;
+    height: 577px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.global .content .lift {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.global .content .lift h1 {
+
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: var(--font-size-2xl);
+    line-height: 120%;
+    letter-spacing: 0%;
+
+
+}
+
+.global .content .lift p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.global .content .lift .btns {
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+
+}
+
+.global .content .lift .btns .btn1 {
+    width: 156PX;
+    height: 60PX;
+    border-radius: 40px;
+    gap: 10px;
+    border: none;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    background-color: var(--color-block);
+    color: var(--color-white);
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 120%;
+    margin-left: -35px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.global .content .lift .btns .btn1:hover {
+    background-color: var(--color-gray);
+    color: var(--color-block);
+}
+
+.global .content .lift .btns .btn2 {
+    width: 156;
+    height: 60;
+    border-radius: 40px;
+    gap: 10px;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 120%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.global .content .lift .btns .btn2:hover {
+    background-color: var(--color-block);
+    color: var(--color-gray);
+}
+
+.global .content .lift .numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    margin-left: -40px;
+
+}
+
+.global .content .lift .numbers div h1 {
+
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: var(--font-size-4xl);
+    line-height: 120%;
+}
+
+.global .content .lift .numbers div h6 {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: var(--font-size-base);
+    line-height: 120%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 70px;
+    height: 457px;
+    margin: 30px 0;
+    background-image: linear-gradient(to right,
+            var(--color-primary),
+            var(--color-secondary));
+
+}
+
+footer .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .content h1 {
+    font-size: var(--font-size-2xl);
+    font-weight: bold;
+
+
+}
+
+footer .content p {
+    padding: 20px;
+}
+
+footer .image {
+    width: 50%;
+}
+
+footer .image img {
+
+    width: 100%;
+    position: relative;
+    height: 557px;
+}
+
+footer .content .input-ptn {
+    position: relative;
+    width: 80%;
+    padding: 20px 0;
+}
+
+footer .content .input-ptn input {
+
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    padding: 0 20px;
+
+}
+
+footer .content .input-ptn button {
+    position: absolute;
+    right: 0px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    width: 147px;
+    background-color: var(--color-block);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .content .input-ptn button:hover {
+    background-color: var(--color-gray);
+    color: var(--color-block);
+}

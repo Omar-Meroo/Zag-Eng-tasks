@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:"Poppins", sans-serif ;
+    font-size: 14px;
+    background-color:hsl(30, 54%, 90%) ;
+    
+}
+
+
+
+/* header */
+header{
+    background-color:  hsl(30, 54%, 90%);
+    width: 700px;
+}
+
+
+header  .image img{
+    width: 1000px;
+    border-radius: 40px;
+    margin: 40px;
+}
+header .header-text{
+margin: -10px 50px 10px;
+}
+header .header-text h1{
+    font-family :'young-serif',serif ;
+    padding: 20px 0;
+    font-size: 50px;
+    
+}
+.Preparation{
+    margin-left:  40px;
+    background-color: hsl(332, 51%, 32%, 0.1);
+    border-radius: 10px;
+    padding: 10px 0 20px 30px;
+}
+.Preparation h1{
+color: hsl(332, 51%, 32%);
+font-family :'young-serif',serif ;
+    padding: 20px 0;
+}
+.Preparation ul {
+    padding-left: 25px;
+    color: hsl(332, 51%, 32%);
+
+}
+.Ingredients{
+    margin: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
+}
+.Ingredients h1{
+    font-family :'young-serif',serif ;
+    color:hsl(14, 45%, 36%);
+}
+.Ingredients ul{
+    padding-left: 25px;
+    color:hsl(14, 45%, 36%);
+
+
+}
+
+
+.Instructions{
+    margin: 50px;
+    width: 700px;
+     padding-bottom: 30px;
+    border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
+}
+.Instructions h1{
+    font-family :'young-serif',serif ;
+    color:hsl(14, 45%, 36%);
+}
+.Instructions ol li{
+    padding-left: 25px;
+    color:hsl(14, 45%, 36%);
+    
+
+}
+.Nutrition{
+    margin: 50px;
+}
+.Nutrition h1{
+    font-family :'young-serif',serif ;
+    margin-bottom: 10px;
+    color:hsl(14, 45%, 36%);
+}
+.Nutrition table{
+    padding: 25px;
+    border-collapse: collapse;
+}
+.Nutrition table tr td {
+  padding: 10px  100px 10px 0px;
+  border-bottom: 1px solid 
+  hsl(30, 10%, 34%);
+}
+.Nutrition table tr:last-child td{
+    border-bottom: none;
+}
+
+p{
+color: black;
+}
