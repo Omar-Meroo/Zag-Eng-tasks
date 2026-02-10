@@ -1,0 +1,138 @@
+strong{
+    color:rgba(76, 175, 79, 1) ;
+}
+header{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.navegation{
+    padding: 0 450px;
+}
+.navegation a{
+  gap:50px ;
+  text-decoration: none;
+    color: black;
+    padding: 0 10px;
+
+}
+button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(76, 175, 79, 1) ;
+    
+    
+}
+.login{
+    
+    color: rgba(76, 175, 79, 1);
+    background-color: rgba(245, 247, 250, 1);
+    width: 77px;
+    height:40px ;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border-color: rgba(245, 247, 250, 1);
+
+}
+.sign-up{
+    
+    width: 91px;
+    height:40px ;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border-color: rgba(76, 175, 79, 1);
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main*/
+
+
+.hero{
+    width: 2000;
+height: 500px;
+
+
+
+
+
+
+}
+.hero.text{
+padding: 100px;
+    margin: 50px;
+}
+
+.hero img{
+  
+  width: 391px;
+  height: 407px;
+  display: inline;
+position: absolute ;
+right: 0;
+top: 0;
+padding: 100px;
+
+  
+ 
+}
+.hero button{
+     width: 91px;
+    height:40px ;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    border-color: rgba(76, 175, 79, 1);
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/*our client*/
+
+.client-text{
+    text-align: center;
+}
+.client-logo img{
+    padding: 90px
+
+}
+
+
+
+
+
+
+
+/*manage*/
+
+manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manage-text {
+    text-align: center;
+}
+.div12{
+    width: 300px;
+    height: 260px;
+
+}
