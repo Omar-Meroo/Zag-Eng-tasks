@@ -14,7 +14,7 @@ console.log(display);
 console.log(btn);
 
 
-btn.onclick = () => {
+btn.onclick() = => {
     const num1 = inputnum1.value;
     const opt = inputopt.value;
     const num2 = inputnum2.value;
