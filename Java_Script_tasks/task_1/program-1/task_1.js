@@ -2,10 +2,7 @@
 let num1 = Number(prompt("Enter num1:"));
 let operator = prompt("Enter operator (+, -, *, /):");
 let num2 = Number(prompt("Enter num2:"));
-
 let result;
-
-
 switch (operator) {
     case "+":
         result = num1 + num2;
@@ -17,7 +14,6 @@ switch (operator) {
         result = num1 * num2;
         break;
     case "/":
-
         if (num2 !== 0) {
             result = num1 / num2;
         } else {
@@ -27,6 +23,5 @@ switch (operator) {
     default:
         result = "Invalid operator!";
 }
-
 
 console.log("Result = " + result);
