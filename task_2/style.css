@@ -10,10 +10,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: rgba(211,211,211,0.2);
 }
 
 .navbar-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: center;
 }
@@ -64,28 +66,22 @@ button{
 .hero{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
     padding: 20px;
-    margin: 20px;
-
-
+    
+    background-color: rgba(211,211,211,0.2);
 }
-.hero.text{
-gap: 20px;
-align-items: center;
-text-align: center;
-}
-.hero.text strong{
+
+.hero .text strong{
     color: rgba(76, 175, 79, 1);;
     
 }
 
 
-.hero img{
 
-}
 .hero button{
     width: 91px;
     height:40px ;
@@ -97,40 +93,156 @@ text-align: center;
 }
 
 
-
-
-
-
-
-
 /*our client*/
 
 .client-text{
     text-align: center;
 }
-.client-logo img{
-    padding: 90px
-
+.client-logo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-
-
-
-
-
 
 /*manage*/
 
-manage{
+.manage{
+    padding: 50px;
+    margin: 20px;
+}
+.manage .manage-divs{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .manage-text {
     text-align: center;
 }
-.div12{
-    width: 300px;
-    height: 260px;
+
+
+
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align:left;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.article .article-text button{
+    width: 91px;
+    height:40px ;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    border-color: rgba(76, 175, 79, 1);
+    
+}
+.reinvent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color:rgba(211,211,211,0.2) ;
+}
+.reinvent .rein-text strong{
+    color:rgba(76, 175, 79, 1) ;
+}
+.reinvent .rein-icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.design-text button{
+    width: 91px;
+    height:40px ;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    border-color: rgba(76, 175, 79, 1);
+}
+.design-text {
+    padding: 20px;
+    
+}
+
+.cust{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.cust-text button{
+    width: 91px;
+    height:40px ;
+    border-radius: 6px;
+    border: none;
+    margin: 5px;
+    border-color: rgba(76, 175, 79, 1);
+}
+.cust-text {
+    padding: 20px;
+}
+
+.marketing{
+background-color:rgba(211,211,211,0.2) ;
+flex-wrap: wrap;
+}
+.marketing img{
+width: 300px;
+height: 200px;
+}
+
+.mark-text{
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mark-divs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.footer .cta{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.footer .cta button{
+    width: 130px;
+    height:40px ;
+    border-radius: 6px;
+    border: none;
+    padding :10px; 
+    border-color: rgba(76, 175, 79, 1);
+}
+.footer .footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #263238;
+    padding: 40px;
+    border-radius: 20px;
 
 }
