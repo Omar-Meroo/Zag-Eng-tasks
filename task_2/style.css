@@ -240,6 +240,7 @@ height: 200px;
 .footer .footer-content{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #263238;
     padding: 40px;
